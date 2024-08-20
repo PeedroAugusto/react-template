@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.home-page {
+
+    .list-message {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .message {
+        display: flex;
+        flex-direction: column;
+        background-color: $primary-color;
+        width: 300px;
+        padding: 10px;
+        min-height: 400px;
+    }
+}
